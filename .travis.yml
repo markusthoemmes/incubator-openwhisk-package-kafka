@@ -25,7 +25,7 @@ deploy:
   - provider: script
     script: ./tools/travis/deploy.sh openwhisk kafkaprovider latest
     on:
-      branch: issue_96
+      branch: issue_171
   # deploy tag
   - provider: script
     script: ./tools/travis/deploy.sh openwhisk kafkaprovider $TRAVIS_TAG
